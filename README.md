@@ -12,7 +12,9 @@ Joyce da Cruz Oliveira
 
 T2
 
-Milton Correa Martins    T1
+Milton Correa Martins    
+
+T1
 
 Karoline Zimmer de Oliveira 
 
@@ -29,5 +31,3 @@ T2
 Viviane Cardoso Rocha
 
 T1
-
-Romulo
