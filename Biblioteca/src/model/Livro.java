@@ -1,8 +1,12 @@
 package model;
 
-public class Livro extends ItensAcervo{
+public class Livro extends ItemAcervo {
     private String titulo;
     private String autor;
+    private String isbn;
+    private String genero;
+
+    private static final int QUANTIDADE_ESTOQUE = 8;
 
     public Livro(String codigo, String genero, boolean disponivel, String titulo, String autor) {
         super(codigo, genero, disponivel);
@@ -10,7 +14,5 @@ public class Livro extends ItensAcervo{
         this.autor = autor;
     }
 
-    public boolean isDisponivel() { return disponivel; }
-    public void setDisponivel(boolean disponivel) { this.disponivel = disponivel; }
-    public String getTitulo() { return titulo; }
+
 }
