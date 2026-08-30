@@ -1,13 +1,13 @@
-package service;
+package servico;
 
-import model.Livro;
-import repository.LivroRepository;
+import modelo.Livro;
+import contrato.RepositorioLivro;
 
 public class BibliotecaService {
-    private LivroRepository livroRepository;
+    private RepositorioLivro livroRepository;
 
     // Injeção da interface
-    public BibliotecaService(LivroRepository livroRepository) {
+    public BibliotecaService(RepositorioLivro livroRepository) {
         this.livroRepository = livroRepository;
     }
 
